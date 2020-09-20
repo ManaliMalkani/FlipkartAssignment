@@ -7,7 +7,7 @@
         <methods>
           <include name="closethebrowser"/>
           <include name="initialize"/>
-          <include name="TC02CalclateTheSumofActiveCasesOfAllStates"/>
+          <include name="TC07CalclateTheSumofTotalRecoveredTodayCasesOfAllStates"/>
         </methods>
       </class> <!-- TestCases.CoronavirusTotalCases -->
     </classes>

@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="52307" started-at="2020-09-17T20:39:12 GMT+05:30" finished-at="2020-09-17T20:40:04 GMT+05:30">
+  <suite name="Suite" duration-ms="61071" started-at="2020-09-20T02:25:58 GMT+05:30" finished-at="2020-09-20T02:26:59 GMT+05:30">
     <groups>
     </groups>
-    <test name="Test" duration-ms="52307" started-at="2020-09-17T20:39:12 GMT+05:30" finished-at="2020-09-17T20:40:04 GMT+05:30">
+    <test name="Test" duration-ms="61071" started-at="2020-09-20T02:25:58 GMT+05:30" finished-at="2020-09-20T02:26:59 GMT+05:30">
       <class name="TestCases.CoronavirusTotalCases">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:TestCases.CoronavirusTotalCases@4082ba93]" name="initialize" is-config="true" duration-ms="31525" started-at="2020-09-17T20:39:12 GMT+05:30" finished-at="2020-09-17T20:39:43 GMT+05:30">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TestCases.CoronavirusTotalCases@4a003cbe]" name="initialize" is-config="true" duration-ms="39557" started-at="2020-09-20T02:25:58 GMT+05:30" finished-at="2020-09-20T02:26:37 GMT+05:30">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="TC01CalclateTheSumofTotalCasesOfAllStates()[pri:0, instance:TestCases.CoronavirusTotalCases@4082ba93]" name="TC01CalclateTheSumofTotalCasesOfAllStates" duration-ms="11794" started-at="2020-09-17T20:39:43 GMT+05:30" finished-at="2020-09-17T20:39:55 GMT+05:30">
+        <test-method status="PASS" signature="TC01CalclateTheSumofTotalCasesOfAllStates()[pri:0, instance:TestCases.CoronavirusTotalCases@4a003cbe]" name="TC01CalclateTheSumofTotalCasesOfAllStates" duration-ms="14463" started-at="2020-09-20T02:26:37 GMT+05:30" finished-at="2020-09-20T02:26:52 GMT+05:30">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01CalclateTheSumofTotalCasesOfAllStates -->
-        <test-method status="PASS" signature="TC02CalclateTheSumofActiveCasesOfAllStates()[pri:0, instance:TestCases.CoronavirusTotalCases@4082ba93]" name="TC02CalclateTheSumofActiveCasesOfAllStates" duration-ms="959" started-at="2020-09-17T20:39:55 GMT+05:30" finished-at="2020-09-17T20:39:56 GMT+05:30">
+        <test-method status="PASS" signature="TC02CalclateTheSumofActiveCasesOfAllStates()[pri:0, instance:TestCases.CoronavirusTotalCases@4a003cbe]" name="TC02CalclateTheSumofActiveCasesOfAllStates" duration-ms="924" started-at="2020-09-20T02:26:52 GMT+05:30" finished-at="2020-09-20T02:26:53 GMT+05:30">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC02CalclateTheSumofActiveCasesOfAllStates -->
-        <test-method status="PASS" signature="TC03CalclateTheSumofRecoveredCasesOfAllStates()[pri:0, instance:TestCases.CoronavirusTotalCases@4082ba93]" name="TC03CalclateTheSumofRecoveredCasesOfAllStates" duration-ms="947" started-at="2020-09-17T20:39:56 GMT+05:30" finished-at="2020-09-17T20:39:57 GMT+05:30">
+        <test-method status="PASS" signature="TC03CalclateTheSumofRecoveredCasesOfAllStates()[pri:0, instance:TestCases.CoronavirusTotalCases@4a003cbe]" name="TC03CalclateTheSumofRecoveredCasesOfAllStates" duration-ms="978" started-at="2020-09-20T02:26:53 GMT+05:30" finished-at="2020-09-20T02:26:54 GMT+05:30">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC03CalclateTheSumofRecoveredCasesOfAllStates -->
-        <test-method status="PASS" signature="TC04CalclateTheSumofDeathsOfAllStates()[pri:0, instance:TestCases.CoronavirusTotalCases@4082ba93]" name="TC04CalclateTheSumofDeathsOfAllStates" duration-ms="870" started-at="2020-09-17T20:39:57 GMT+05:30" finished-at="2020-09-17T20:39:58 GMT+05:30">
+        <test-method status="PASS" signature="TC04CalclateTheSumofDeathsOfAllStates()[pri:0, instance:TestCases.CoronavirusTotalCases@4a003cbe]" name="TC04CalclateTheSumofDeathsOfAllStates" duration-ms="1166" started-at="2020-09-20T02:26:54 GMT+05:30" finished-at="2020-09-20T02:26:55 GMT+05:30">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC04CalclateTheSumofDeathsOfAllStates -->
-        <test-method status="PASS" signature="TC05CalclateTheSumofTotalTodayCasesOfAllStates()[pri:0, instance:TestCases.CoronavirusTotalCases@4082ba93]" name="TC05CalclateTheSumofTotalTodayCasesOfAllStates" duration-ms="1330" started-at="2020-09-17T20:39:58 GMT+05:30" finished-at="2020-09-17T20:39:59 GMT+05:30">
+        <test-method status="PASS" signature="TC05CalclateTheSumofTotalTodayCasesOfAllStates()[pri:0, instance:TestCases.CoronavirusTotalCases@4a003cbe]" name="TC05CalclateTheSumofTotalTodayCasesOfAllStates" duration-ms="1087" started-at="2020-09-20T02:26:55 GMT+05:30" finished-at="2020-09-20T02:26:56 GMT+05:30">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC05CalclateTheSumofTotalTodayCasesOfAllStates -->
-        <test-method status="PASS" signature="TC06CalclateTheSumofTotalActiveTodayCasesOfAllStates()[pri:0, instance:TestCases.CoronavirusTotalCases@4082ba93]" name="TC06CalclateTheSumofTotalActiveTodayCasesOfAllStates" duration-ms="2921" started-at="2020-09-17T20:39:59 GMT+05:30" finished-at="2020-09-17T20:40:02 GMT+05:30">
+        <test-method status="PASS" signature="TC06CalclateTheSumofTotalActiveTodayCasesOfAllStates()[pri:0, instance:TestCases.CoronavirusTotalCases@4a003cbe]" name="TC06CalclateTheSumofTotalActiveTodayCasesOfAllStates" duration-ms="850" started-at="2020-09-20T02:26:56 GMT+05:30" finished-at="2020-09-20T02:26:57 GMT+05:30">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC06CalclateTheSumofTotalActiveTodayCasesOfAllStates -->
-        <test-method status="PASS" signature="TC07CalclateTheSumofTotalRecoveredTodayCasesOfAllStates()[pri:0, instance:TestCases.CoronavirusTotalCases@4082ba93]" name="TC07CalclateTheSumofTotalRecoveredTodayCasesOfAllStates" duration-ms="921" started-at="2020-09-17T20:40:02 GMT+05:30" finished-at="2020-09-17T20:40:03 GMT+05:30">
+        <test-method status="PASS" signature="TC07CalclateTheSumofTotalRecoveredTodayCasesOfAllStates()[pri:0, instance:TestCases.CoronavirusTotalCases@4a003cbe]" name="TC07CalclateTheSumofTotalRecoveredTodayCasesOfAllStates" duration-ms="895" started-at="2020-09-20T02:26:57 GMT+05:30" finished-at="2020-09-20T02:26:58 GMT+05:30">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC07CalclateTheSumofTotalRecoveredTodayCasesOfAllStates -->
-        <test-method status="PASS" signature="TC08CalclateTheSumofTotalDeathTodayCasesOfAllStates()[pri:0, instance:TestCases.CoronavirusTotalCases@4082ba93]" name="TC08CalclateTheSumofTotalDeathTodayCasesOfAllStates" duration-ms="665" started-at="2020-09-17T20:40:03 GMT+05:30" finished-at="2020-09-17T20:40:04 GMT+05:30">
+        <test-method status="PASS" signature="TC08CalclateTheSumofTotalDeathTodayCasesOfAllStates()[pri:0, instance:TestCases.CoronavirusTotalCases@4a003cbe]" name="TC08CalclateTheSumofTotalDeathTodayCasesOfAllStates" duration-ms="737" started-at="2020-09-20T02:26:58 GMT+05:30" finished-at="2020-09-20T02:26:59 GMT+05:30">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC08CalclateTheSumofTotalDeathTodayCasesOfAllStates -->
-        <test-method status="PASS" signature="closethebrowser()[pri:0, instance:TestCases.CoronavirusTotalCases@4082ba93]" name="closethebrowser" is-config="true" duration-ms="289" started-at="2020-09-17T20:40:04 GMT+05:30" finished-at="2020-09-17T20:40:04 GMT+05:30">
+        <test-method status="PASS" signature="closethebrowser()[pri:0, instance:TestCases.CoronavirusTotalCases@4a003cbe]" name="closethebrowser" is-config="true" duration-ms="329" started-at="2020-09-20T02:26:59 GMT+05:30" finished-at="2020-09-20T02:26:59 GMT+05:30">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closethebrowser -->

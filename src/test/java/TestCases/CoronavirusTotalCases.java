@@ -88,9 +88,10 @@ public class CoronavirusTotalCases extends base {
     	ct=new CoronavirusTrackerPage(driver);
     	int sumOfActiveTodayCasesofAllStatesUp = utils.TotalStateCountSum(ct.TotalTodayActiveCasesforStatesUp());
     	int sumOfActiveTodayCasesofAllStatesDown = utils.TotalStateCountSum(ct.TotalTodayActiveCasesforStatesDown());
-    	int finalcount=sumOfActiveTodayCasesofAllStatesUp-sumOfActiveTodayCasesofAllStatesDown;
+    	int finalCount=sumOfActiveTodayCasesofAllStatesUp-sumOfActiveTodayCasesofAllStatesDown;
+    	finalCount=Math.abs(finalCount);
     	int TotalActiveTodayIndiaCases=utils.TotalIndiaCount(ct.TotalTodayActiveCasesInIndia());
-		Assert.assertEquals(finalcount, TotalActiveTodayIndiaCases);   
+		Assert.assertEquals(finalCount, TotalActiveTodayIndiaCases);   
     }
     @Test
     public void TC07CalclateTheSumofTotalRecoveredTodayCasesOfAllStates() throws IOException, InterruptedException
