@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28929" started-at="2020-09-24T21:35:28 GMT+05:30" finished-at="2020-09-24T21:35:57 GMT+05:30">
+  <suite name="Suite" duration-ms="69387" started-at="2020-09-25T00:38:12 GMT+05:30" finished-at="2020-09-25T00:39:22 GMT+05:30">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28929" started-at="2020-09-24T21:35:28 GMT+05:30" finished-at="2020-09-24T21:35:57 GMT+05:30">
+    <test name="Test" duration-ms="69387" started-at="2020-09-25T00:38:12 GMT+05:30" finished-at="2020-09-25T00:39:22 GMT+05:30">
       <class name="TestCases.FlipkartTestCases">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:TestCases.FlipkartTestCases@46fa7c39]" name="initialize" is-config="true" duration-ms="17005" started-at="2020-09-24T21:35:28 GMT+05:30" finished-at="2020-09-24T21:35:45 GMT+05:30">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TestCases.FlipkartTestCases@46fa7c39]" name="initialize" is-config="true" duration-ms="50492" started-at="2020-09-25T00:38:12 GMT+05:30" finished-at="2020-09-25T00:39:03 GMT+05:30">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="TC01CalclateTheSumofTotalCasesOfAllStates()[pri:0, instance:TestCases.FlipkartTestCases@46fa7c39]" name="TC01CalclateTheSumofTotalCasesOfAllStates" duration-ms="11254" started-at="2020-09-24T21:35:45 GMT+05:30" finished-at="2020-09-24T21:35:56 GMT+05:30">
+        <test-method status="PASS" signature="TC01CalclateTheSumofTotalCasesOfAllStates()[pri:0, instance:TestCases.FlipkartTestCases@46fa7c39]" name="TC01CalclateTheSumofTotalCasesOfAllStates" duration-ms="14413" started-at="2020-09-25T00:39:03 GMT+05:30" finished-at="2020-09-25T00:39:17 GMT+05:30">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01CalclateTheSumofTotalCasesOfAllStates -->
-        <test-method status="PASS" signature="closethebrowser()[pri:0, instance:TestCases.FlipkartTestCases@46fa7c39]" name="closethebrowser" is-config="true" duration-ms="596" started-at="2020-09-24T21:35:56 GMT+05:30" finished-at="2020-09-24T21:35:57 GMT+05:30">
+        <test-method status="PASS" signature="closethebrowser()[pri:0, instance:TestCases.FlipkartTestCases@46fa7c39]" name="closethebrowser" is-config="true" duration-ms="4403" started-at="2020-09-25T00:39:17 GMT+05:30" finished-at="2020-09-25T00:39:22 GMT+05:30">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closethebrowser -->
       </class> <!-- TestCases.FlipkartTestCases -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
