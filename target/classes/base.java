@@ -32,8 +32,8 @@ public WebDriver initializeDriver() throws IOException
 	FileInputStream fis= new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\resources\\data.properties");
 	prop.load(fis);
 	//mvn test -Dbrowser=chrome
-	String browserName=System.getProperty("browser");  // Uncomment this line if you are sending parameter from Maven
-	//String browserName=prop.getProperty("browser");
+	//String browserName=System.getProperty("browser");  // Uncomment this line if you are sending parameter from Maven
+	String browserName=prop.getProperty("browser");
 	System.out.println(browserName);
 
 	if(browserName.contains("chrome")){

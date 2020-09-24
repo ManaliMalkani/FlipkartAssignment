@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.CoronavirusTotalCases">
+      <class name="TestCases.FlipkartTestCases">
         <methods>
-          <include name="closethebrowser"/>
-          <include name="initialize"/>
-          <include name="TC07CalclateTheSumofTotalRecoveredTodayCasesOfAllStates"/>
+          <include name="TC01CalclateTheSumofTotalCasesOfAllStates"/>
         </methods>
-      </class> <!-- TestCases.CoronavirusTotalCases -->
+      </class> <!-- TestCases.FlipkartTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

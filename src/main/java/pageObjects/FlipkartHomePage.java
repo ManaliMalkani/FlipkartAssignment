@@ -9,15 +9,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class CoronavirusTrackerPage {
+public class FlipkartHomePage {
 	
 	public WebDriver driver;
 	
-	private By NDTVAlert=By.xpath("//a[text()='No Thanks']");
-	private String IndiaCasesFrame="t5";
-	private By TotalCasesforStates=By.xpath("//tr//td[2]//p");
-	private By TotalCasesInIndia =By.cssSelector("li[class='ind-mp_total_iteam confirmed'] span[class='ind-mp_num']");
-	private By TotalActiveCasesforStates=By.xpath("//tr//td[3]//p");
+	private By cancel= By.xpath("//button[@class='_2AkmmA _29YdH8']");
+	private By Searchbox=By.xpath("//input[@title='Search for products, brands and more']");
+	private By SearchButton=By.xpath("//*[@type='submit']");
+	private By PriceLowtoHigh =By.xpath("//*[text()='Price -- Low to High']");
+	private By AppleIphoneProducts=By.xpath("//a[@class='_31qSD5']");
 	private By TotalActiveCasesInIndia= By.cssSelector ("li[class='ind-mp_total_iteam activecase'] span[class='ind-mp_num']");
 	private By TotalRecoverdCasesforStates=By.xpath("//tr//td[4]//p");
 	private By TotalRecoverdCasesInIndia= By.cssSelector ("li[class='ind-mp_total_iteam recovered'] span[class='ind-mp_num']");
@@ -34,36 +34,37 @@ public class CoronavirusTrackerPage {
 	private By TotalTodayDeathCasesInIndia =By.cssSelector("li[class='ind-mp_total_iteam deaths'] span[class='ind-mp_num'] span");
 
 
-public CoronavirusTrackerPage(WebDriver driver)
+public FlipkartHomePage(WebDriver driver)
 {
 	this.driver=driver;
 }
-
-public WebElement NDTVAlert()
+public WebElement CancelLink()
 {
-	return driver.findElement(NDTVAlert);
-	
-}
-public WebDriver IndiaCasesFrame()
-{
-	return driver.switchTo().frame(IndiaCasesFrame);
+	return driver.findElement(cancel);
 	
 }
 
-public List TotalCasesforStates()
+public WebElement Searchbox()
 {
-	return driver.findElements(TotalCasesforStates);
+	return driver.findElement(Searchbox);
 	
 }
-public WebElement TotalCasesInIndia()
+public WebElement SearchButton()
 {
-	return driver.findElement(TotalCasesInIndia);
+	return driver.findElement(SearchButton);
 	
 }
 
-public List TotalActiveCasesforStates()
+
+public WebElement PriceLowtoHigh()
 {
-	return driver.findElements(TotalActiveCasesforStates);
+	return driver.findElement(PriceLowtoHigh);
+	
+}
+
+public List AppleIphoneProducts()
+{
+	return driver.findElements(AppleIphoneProducts);
 	
 }
 public WebElement TotalActiveCasesInIndia()
