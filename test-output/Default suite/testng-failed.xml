@@ -6,6 +6,8 @@
       <class name="TestCases.FlipkartTestCases">
         <methods>
           <include name="TC01CalclateTheSumofTotalCasesOfAllStates"/>
+          <include name="initialize"/>
+          <include name="closethebrowser"/>
         </methods>
       </class> <!-- TestCases.FlipkartTestCases -->
     </classes>
